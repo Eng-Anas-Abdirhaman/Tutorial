@@ -1,0 +1,240 @@
+/*-------hordhaca hore --------*/
+body, img, p, h1, h2, h3, h4, h5, ul, ol, li, form, blockquote {
+  margin: 0;
+  padding: 0;
+} /*---------hordhaca dhamaad---------*/
+
+/*-----------------ciwaanada bilow-----------*/
+h1,
+h2,
+h3,
+h4,
+h5 {
+  line-height: 1.1em;
+  font-weight: bold;
+  font-family: 
+  font-size: 25px;
+  padding: 18px 0;
+} /*---------------ciwaanada dhamaad---------------*/
+
+
+/*-----------------body guud bilow----------------*/
+body {
+  font-size: 17px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  background-color: #eee;
+  color: #000;
+} 
+/*--------------body guud dhamaad---------------*/
+
+/*-----------------container bilow----------------*/
+#container {
+  width: 1000px;
+  margin: 0 auto;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 25px;
+} 
+/*--------------container dhamaad--------------*/
+
+/*----------------header bilow-------------------*/
+#header {
+  background-color: #00359E;
+ border-bottom: 5px solid #c30;
+} 
+/*--------------header dhmaad-------------------*/
+
+/*----------------bilowga logo-banner-------------*/
+#logo-banner{
+  overflow: hidden;
+  width: 1000px;
+  background-color: #039;
+  height: 200px;
+  position: relative;
+}
+/*---------------dhamaadlogo-banner----------------*/
+
+
+
+
+/*-----------------bilow logo-------------------*/
+#logo{
+  float: right;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  height: 70px;
+
+
+}
+/*----------------dhamaad logo------------------*/
+
+
+img{
+  position: relative;
+  width: 300px;
+  bottom: 15px;
+  right: 20px;;
+
+}
+
+
+#sawir{
+  width: 300px;
+  transform: translateX(-50px);
+  margin-left: 25px;
+  margin-top: 20px;
+  
+  
+  
+}
+
+#one{
+  width: 300px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+
+
+/* ----------------bilow banner------------------ */
+#banner {
+  float: right;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  width: 500px;
+  height: 100px;
+  }
+/*---------------dhamaad banner-----------------*/
+
+
+
+
+/*----------------nav bilow-----------------------*/
+#nav {
+  overflow: hidden;
+  position: relative;
+  background-color: #353335;
+  color: #fff;
+  
+
+} 
+/*--------------nav dhmaad----------------------*/
+
+
+/*----------------bilow nav ul--------------------*/
+#nav ul {
+  float: right;
+  margin: 0;
+  padding: 0;
+}
+/*----------------dhamaad nav ul--------------------*/
+
+
+/*----------------bilow nav ul li-------------------*/
+#nav ul li {
+  list-style-type: none;
+  display: inline;
+}
+/*----------------dhamaad nav ul li-----------------*/
+
+
+/*----------------bilow nav li a--------------------*/
+#nav li a{
+  display: block;
+  float: right;
+  padding: 5px 10px;
+  color: #fff;
+  text-decoration: none;
+  border-right: 1px solid #fff;
+  
+  
+}
+/*----------------dhamaad nav li a------------------*/
+
+
+/*----------------bilow nav li a hover---------------*/
+#nav li a:hover {
+  background-color: #c30;
+}
+/*----------------dhamaad nav li a hover---------------*/
+
+
+
+
+
+/*---------------content ku wareegsan sidebar-----------*/
+#content-wrap {
+  background-color: #ccc;
+  overflow: hidden;
+} /*-------------content ku wareegsan sidebar-----------*/
+
+/*---------------contente bilow-----------------*/
+#content {
+  width: 640px;
+  float: left;
+  background-color: #fff;
+  
+} /*-------------contente dhmaad-----------------*/
+
+/*---------------contente-yar bilow-----------------*/
+#content-yar {
+  padding: 0 15px;
+  padding-right: 250px;
+} /*-------------contente-yar dhamaad---------------*/
+
+/*---------------contente P bilow-------------------*/
+#content-yar p {
+  padding-bottom: 10px;
+  padding-right: 20px;
+  margin-right: 25px;
+} /*-------------sidebar bilow----------------------*/
+#sidebar {
+  width: 300px;
+  float: left;
+  background-color: #ccc;
+} /*------------sidebar dhamaad---------------------*/
+
+/*--------------sidebar-yarka bilow-----------------*/
+#sidebar-yarka {
+  padding: 0 20px;
+  float: left;
+} /*------------sidebar-yarka dhamaad---------------*/
+
+/*--------------footer bilow------------------------*/
+#footer {
+  background-color: #4d5b6c;
+  color: #fff;
+  clear: both;
+  height: 3.3em;
+} /*-----------footer dhamaad-----------------------*/
+
+/*-------------footer P bilow-----------------------*/
+#footer p {
+  padding: 17px;
+  text-align: center;
+} /*-----------footer P dhamaad----------------------*/
+
+@media only screen and (max-width: 960px) {
+  #container {
+    width: 95%;
+  }
+
+img{
+  width: 95%;
+}
+
+#sawir{
+  width: 95%;
+}
+
+  #logo-banner {
+    width: 95%;
+  }
+  #logo {
+    height: 50%;
+    top: 10px;
+    left: 10
+
+
